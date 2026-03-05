@@ -7,10 +7,12 @@
 - Weekly pipeline: same, with weekly inputs and outputs
 
 ## 2) Schedules
-- **Daily**: 08:00 Asia/Shanghai
-- **Weekly**: Sunday 09:00 Asia/Shanghai
+- **Daily**: 06:30 Asia/Shanghai (before 07:00)
+- **Weekly**: Friday 06:30 Asia/Shanghai
 
-(Use cron in UTC; convert at implementation time.)
+**UTC cron (GitHub Actions uses UTC):**
+- Daily: `30 22 * * *`
+- Weekly (Fri 06:30 CST = Thu 22:30 UTC): `30 22 * * 4`
 
 ## 3) GitHub Actions Structure
 ```
