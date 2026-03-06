@@ -1,0 +1,27 @@
+{
+  "name": "ai_days",
+  "version": "1.0.0",
+  "description": "面向开发者的 AI 日报 / 周报项目",
+  "type": "module",
+  "scripts": {
+    "daily": "tsx src/main.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wan-Kai/ai_days.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wan-Kai/ai_days/issues"
+  },
+  "homepage": "https://github.com/Wan-Kai/ai_days#readme",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

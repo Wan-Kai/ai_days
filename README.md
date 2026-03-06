@@ -25,3 +25,12 @@
 - BestBlogs 为主信息池
 - 工具更新 / 官方博客为独立来源并行
 - 后续新增来源请在 `news/ai-daily-sources.md` 追加
+
+## 本地运行（MVP 日报管线）
+1. 安装依赖：`npm install`
+2. 执行日报流程：`npm run daily`
+3. 产物：
+   - `data/bestblogs.json`
+   - `data/github-releases.json`
+   - `data/daily-merged.json`
+   - `public/rss/daily.xml`
