@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>ai_days daily</title>
+<link>https://example.com</link>
+<description>Daily feed merged from BestBlogs and openai/codex releases</description>
+<lastBuildDate>Fri, 06 Mar 2026 04:42:37 GMT</lastBuildDate>
+<ttl>60</ttl>
+<item><title>0.112.0-alpha.2</title><link>https://github.com/openai/codex/releases/tag/rust-v0.112.0-alpha.2</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.112.0-alpha.2</guid><pubDate>Fri, 06 Mar 2026 02:16:11 GMT</pubDate><description><![CDATA[<p>Release 0.112.0-alpha.2</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.112.0-alpha.1</title><link>https://github.com/openai/codex/releases/tag/rust-v0.112.0-alpha.1</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.112.0-alpha.1</guid><pubDate>Fri, 06 Mar 2026 01:19:21 GMT</pubDate><description><![CDATA[<p>Release 0.112.0-alpha.1</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>【第 3664 期】Claude Code 系统化方法：从规划到高效交付</title><link>https://www.bestblogs.dev/article/4f976e2c</link><guid isPermaLink="true">https://www.bestblogs.dev/article/4f976e2c</guid><pubDate>Fri, 06 Mar 2026 01:04:00 GMT</pubDate><description><![CDATA[<p>📌 一句话摘要
+            
+本文系统性地介绍了如何高效使用 Claude Code，强调了规划先行、维护 CLAUDE.md、管理上下文窗口以及构建自动化工作流的实战方法论。
+📝 详细摘要
+            
+文章由资深软件工程师 Eyad 分享，核心观点是 AI 编程不应只是简单的代码生成，而是一套严谨的工程流程。作者结合 Amazon、Disney 等大厂经验，详细阐述了使用 Claude Code 的系统化方法：首先，强调“先思考再动手”，利用 Plan 模式进行架构设计；其次，通过维护精简的 CLAUDE.md 文件来管理项目上下文和规则；第三，揭示了上下文窗口在 20%-40% 占用时即会出现质量退化的现象，并提供了重置和压缩的技巧；最后，探讨了如何利用 MCP、Hooks 和无头模式将 Claude 融入自动化工作流，实现从工具到系统的跨越。
+💡 主要观点
+            
+在 Plan 模式下先进行系统性思考与架构设计，优于直接生成代码。
+                         作者认为直接输入需求是新手常犯的错误。通过 Plan 模式进行双向沟通，明确架构约束和目标状态，能显著减少后续调试时间并提升代码质量。
+                    
+
+                        维护精简且包含“原因”的 CLAUDE.md 是提升 AI 理解力的关键杠杆。
+                         CLAUDE.md 应作为项目的活文档，记录特定 bash 命令和规则。解释指令背后的原因（Why）能帮助模型在未预料的场景下做出更合理的决策。
+                    
+
+                        警惕上下文窗口的性能退化，通过拆分对话和重置法保持模型清醒。
+                         模型在上下文占用达到 20%-40% 时表现就会下降。建议为不同任务拆分对话，并利用 /compact 或 /clear 配合手动粘贴关键信息来重置上下文。
+                    
+
+                        将 Claude Code 脚本化并构建自动化系统，以实现工程效能的复利。
+                         利用无头模式（-p 参数）和 Hooks 钩子，将 AI 融入 PR 审查、安全扫描等自动化流程，通过不断优化配置和工具链形成持续改进的飞轮。
+                    
+💬 文章金句
+            
+先思考，再动手打字，效果会远远好于先打字、再寄希望于 Claude 替你理清思路。
+糟糕的 CLAUDE.md 像是写给新入职员工的说明文档。优秀的 CLAUDE.md 则更像是假设你明天会失忆，今天留给自己的备忘录。
+当上下文使用量达到大约 20% 到 40% 时，输出质量就开始慢慢下降，即使不一定很明显。
+输出决定一切，但输出只来自输入。如果你的输出很糟糕，那是因为你的输入就很糟糕。没有例外。
+真正的元能力，是尽早识别你已经陷入循环。如果你已经解释了三次，Claude 还是没理解，那继续解释通常不会有帮助。
+📊 文章信息
+            
+AI 评分：88
+来源：前端早读课
+作者：前端早读课
+分类：人工智能
+语言：中文
+阅读时间：26 分钟
+字数：6299
+标签：
+                    
+                        Claude Code, AI Coding, 提示词工程, 上下文管理, 软件工程
+                    
+                
+            
+        
+
+        
+            阅读完整文章</p><p><strong>Source:</strong> BestBlogs</p>]]></description></item>
+<item><title>0.111.0</title><link>https://github.com/openai/codex/releases/tag/rust-v0.111.0</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.111.0</guid><pubDate>Thu, 05 Mar 2026 19:12:13 GMT</pubDate><description><![CDATA[<p>## New Features
+- Fast mode is now enabled by default, and the TUI header shows whether the session is running in Fast or Standard mode. (#13450, #13446)
+- `js_repl` can now dynamically import local `.js` and `.mjs` files, making it easier to reuse workspace scripts from the REPL. (#13437)
+- Codex now tells the model which plugins are enabled at session start, improving discovery of installed MCPs</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.111.0-alpha.2</title><link>https://github.com/openai/codex/releases/tag/rust-v0.111.0-alpha.2</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.111.0-alpha.2</guid><pubDate>Thu, 05 Mar 2026 14:11:58 GMT</pubDate><description><![CDATA[<p>Release 0.111.0-alpha.2</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>artifact-runtime-v2.4.0</title><link>https://github.com/openai/codex/releases/tag/artifact-runtime-v2.4.0</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/artifact-runtime-v2.4.0</guid><pubDate>Thu, 05 Mar 2026 10:52:18 GMT</pubDate><description><![CDATA[<p>Empty draft</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>告别「暴力堆料」，理想汽车打破车载芯片「高算力 低智能」困局</title><link>https://www.bestblogs.dev/article/0d84855c</link><guid isPermaLink="true">https://www.bestblogs.dev/article/0d84855c</guid><pubDate>Thu, 05 Mar 2026 08:52:00 GMT</pubDate><description><![CDATA[<p>📌 一句话摘要
+            
+理想汽车发布「软硬协同设计定律」研究成果，通过数学框架解决车载大模型在有限算力下的效率瓶颈，为其自研「马赫 100」算法原生芯片提供理论支撑。
+📝 详细摘要
+            
+文章深入解析了理想汽车与国创决策智能技术研究所联合发表的技术论文，核心探讨了在功耗、散热和成本受限的车载环境下，如何通过「软硬协同设计定律」打破「高算力低智能」的困局。理想提出了包括精度预测模型、车载化 Roofline 性能模型以及 PLAS 架构搜索框架在内的三步走方案。研究揭示了六个反直觉发现：内存带宽比峰值算力更关键、MoE 稀疏架构在车载场景具有压倒性优势、Prefill 与 Decode 阶段需动态切换模式等。这些研究成果直接服务于理想自研的 5nm 芯片「马赫 100」，标志着智能汽车竞争从「暴力堆料」转向「算法原生」的软硬一体化阶段。
+💡 主要观点
+            
+提出「软硬协同设计定律」数学框架，实现模型精度与硬件效能的白盒预测。
+                         通过训练 170 个模型并评估近 2000 个配置，建立起无需训练即可预测模型精度的能力，将芯片与算法的适配周期从月级缩短至周级。
+                    
+
+                        内存带宽和缓存效率对车载 AI 表现的影响力远超芯片峰值算力（TOPS）。
+                         车载场景下大模型运行产生大量临时数据，内存带宽如同传菜速度，若带宽不足，计算单元的刀工再快也无法提升系统整体效能。
+                    
+
+                        MoE（混合专家）稀疏架构在车载单请求场景下展现出对密集架构的全面碾压。
+                         车载 AI 典型场景是一次处理一个请求，MoE 架构通过动态调用部分专家单元，在保证智能水平的同时极大降低了资源消耗和功耗。
+                    
+
+                        自研芯片「马赫 100」采用算法原生设计，由软件需求反向定义硬件微架构。
+                         不同于传统先造芯片再适配算法的模式，马赫 100 根据软硬协同定律计算出的最优配比进行设计，旨在实现极致的软硬匹配效率。
+                    
+💬 文章金句
+            
+决定车载 AI 实际表现的，往往不是芯片的峰值算力，而是它的内存带宽和缓存效率。
+芯片的峰值性能 ≠ 实际系统效能。精心设计的模型跑在芯片上，经常无法充分发挥理论算力。
+马赫 100 是一颗「算法原生芯片」。它的微架构、内存子系统、计算单元配比，不是芯片团队拍脑袋定的，而是由软硬协同设计定律「算」出来的。
+算法和芯片必须长在一起，才能把智能的上限真正打开。这道门槛，才是下一轮淘汰赛真正的分水岭。
+📊 文章信息
+            
+AI 评分：88
+来源：极客公园
+作者：极客公园
+分类：人工智能
+语言：中文
+阅读时间：13 分钟
+字数：3038
+标签：
+                    
+                        理想汽车, 软硬协同设计, 车载大模型, 马赫 100, MoE 架构
+                    
+                
+            
+        
+
+        
+            阅读完整文章</p><p><strong>Source:</strong> BestBlogs</p>]]></description></item>
+<item><title>0.111.0-alpha.1</title><link>https://github.com/openai/codex/releases/tag/rust-v0.111.0-alpha.1</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.111.0-alpha.1</guid><pubDate>Thu, 05 Mar 2026 04:33:24 GMT</pubDate><description><![CDATA[<p>Release 0.111.0-alpha.1</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.110.0</title><link>https://github.com/openai/codex/releases/tag/rust-v0.110.0</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.110.0</guid><pubDate>Thu, 05 Mar 2026 02:22:46 GMT</pubDate><description><![CDATA[<p>## New Features
+- Added a plugin system that can load skills, MCP entries, and app connectors from config or a local marketplace, with an install endpoint for enabling plugins from the app server. (#12864, #13333, #13401, #13422)
+- Expanded the TUI multi-agent flow with approval prompts, `/agent`-based enablement, clearer prompts, ordinal nicknames, and role-labeled handoff context. (#12995, #1324</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.110.0-alpha.1</title><link>https://github.com/openai/codex/releases/tag/rust-v0.110.0-alpha.1</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.110.0-alpha.1</guid><pubDate>Thu, 05 Mar 2026 00:59:56 GMT</pubDate><description><![CDATA[<p>Release 0.110.0-alpha.1</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.12</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.12</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.12</guid><pubDate>Wed, 04 Mar 2026 15:33:58 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.12</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.11</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.11</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.11</guid><pubDate>Wed, 04 Mar 2026 11:59:49 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.11</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.10</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.10</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.10</guid><pubDate>Wed, 04 Mar 2026 05:48:10 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.10</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.9</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.9</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.9</guid><pubDate>Wed, 04 Mar 2026 05:16:15 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.9</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.8</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.8</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.8</guid><pubDate>Wed, 04 Mar 2026 02:39:14 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.8</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.7</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.7</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.7</guid><pubDate>Wed, 04 Mar 2026 01:35:00 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.7</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.6</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.6</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.6</guid><pubDate>Wed, 04 Mar 2026 00:46:06 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.6</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.5</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.5</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.5</guid><pubDate>Tue, 03 Mar 2026 23:12:42 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.5</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.3</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.3</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.3</guid><pubDate>Tue, 03 Mar 2026 11:12:30 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.3</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.2</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.2</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.2</guid><pubDate>Tue, 03 Mar 2026 05:35:04 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.2</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.108.0-alpha.1</title><link>https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.1</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.1</guid><pubDate>Tue, 03 Mar 2026 02:13:59 GMT</pubDate><description><![CDATA[<p>Release 0.108.0-alpha.1</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0</guid><pubDate>Mon, 02 Mar 2026 18:00:16 GMT</pubDate><description><![CDATA[<p>## New Features
+- You can now fork a thread into sub-agents, making it easier to branch work without leaving the current conversation. (#12499)
+- Realtime voice sessions now let you pick microphone and speaker devices, persist those choices, and send audio in a format better aligned with transcription. (#12849, #12850, #13030)
+- Custom tools can now return multimodal output, including structured c</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.9</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.9</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.9</guid><pubDate>Mon, 02 Mar 2026 00:45:28 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.9</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.8</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.8</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.8</guid><pubDate>Sat, 28 Feb 2026 02:50:51 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.8</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.7</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.7</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.7</guid><pubDate>Sat, 28 Feb 2026 01:53:50 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.7</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.5</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.5</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.5</guid><pubDate>Fri, 27 Feb 2026 13:39:19 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.5</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.4</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.4</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.4</guid><pubDate>Fri, 27 Feb 2026 07:39:08 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.4</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.3</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.3</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.3</guid><pubDate>Fri, 27 Feb 2026 02:17:52 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.3</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.2</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.2</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.2</guid><pubDate>Fri, 27 Feb 2026 00:34:43 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.2</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.107.0-alpha.1</title><link>https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.1</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.1</guid><pubDate>Thu, 26 Feb 2026 23:47:57 GMT</pubDate><description><![CDATA[<p>Release 0.107.0-alpha.1</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.106.0</title><link>https://github.com/openai/codex/releases/tag/rust-v0.106.0</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.106.0</guid><pubDate>Thu, 26 Feb 2026 23:11:50 GMT</pubDate><description><![CDATA[<p>## New Features
+- Added a direct install script for macOS and Linux and publish it as a GitHub release asset, using the existing platform payload (including `codex` and `rg`) (#12740)
+- Expanded the app-server v2 thread API with experimental thread-scoped realtime endpoints/notifications and a `thread/unsubscribe` flow to unload live threads without archiving them (#12715, #10954)
+- Promoted `js_r</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+<item><title>0.106.0-alpha.9</title><link>https://github.com/openai/codex/releases/tag/rust-v0.106.0-alpha.9</link><guid isPermaLink="true">https://github.com/openai/codex/releases/tag/rust-v0.106.0-alpha.9</guid><pubDate>Thu, 26 Feb 2026 13:01:29 GMT</pubDate><description><![CDATA[<p>Release 0.106.0-alpha.9</p><p><strong>Source:</strong> GitHub/openai/codex</p>]]></description></item>
+</channel>
+</rss>
