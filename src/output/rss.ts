@@ -18,9 +18,24 @@ function escapeXml(value: string): string {
 export function buildRss(items: Item[], meta: RssChannelMeta): string {
   const channelItems = items
     .map((item) => {
+      const summary = item.summary_one || item.summary;
+      const keyPointsHtml =
+        item.key_points && item.key_points.length > 0
+          ? `<p><strong>Key Points:</strong></p><ul>${item.key_points
+              .slice(0, 5)
+              .map((point) => `<li>${escapeXml(point)}</li>`)
+              .join("")}</ul>`
+          : "";
+      const tagsHtml =
+        item.tags && item.tags.length > 0
+          ? `<p><strong>Tags:</strong> ${escapeXml(item.tags.join(", "))}</p>`
+          : "";
+      const source = item.source_site || item.source;
       const description = [
-        item.summary ? `<p>${escapeXml(item.summary)}</p>` : "",
-        `<p><strong>Source:</strong> ${escapeXml(item.source)}</p>`,
+        summary ? `<p>${escapeXml(summary)}</p>` : "",
+        keyPointsHtml,
+        tagsHtml,
+        `<p><strong>Source:</strong> ${escapeXml(source)}</p>`,
       ]
         .filter(Boolean)
         .join("");

@@ -28,17 +28,20 @@ export async function collectGithubReleases(): Promise<Item[]> {
 
   return releases
     .filter((release) => !release.draft)
-    .map((release) => ({
-      id: `github-release:${release.id}`,
-      title: release.name?.trim() || release.tag_name,
-      url: release.html_url,
-      source: "GitHub/openai/codex",
-      sourceType: "release",
-      lang: "en",
-      publishedAt: release.published_at
-        ? new Date(release.published_at).toISOString()
-        : new Date().toISOString(),
-      summary: release.body?.slice(0, 400).trim(),
-    }))
+    .map(
+      (release) =>
+        ({
+          id: `github-release:${release.id}`,
+          title: release.name?.trim() || release.tag_name,
+          url: release.html_url,
+          source: "GitHub/openai/codex",
+          sourceType: "release",
+          lang: "en",
+          publishedAt: release.published_at
+            ? new Date(release.published_at).toISOString()
+            : new Date().toISOString(),
+          summary: release.body?.slice(0, 400).trim(),
+        }) satisfies Item,
+    )
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
 }

@@ -1,302 +1,302 @@
 [
   {
-    "id": "github-release:293767513",
-    "title": "0.112.0-alpha.2",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.112.0-alpha.2",
+    "id": "github-release:305239791",
+    "title": "0.119.0-alpha.11",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.11",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-06T02:16:11.000Z",
-    "summary": "Release 0.112.0-alpha.2"
+    "publishedAt": "2026-04-04T06:48:14.000Z",
+    "summary": "Release 0.119.0-alpha.11"
   },
   {
-    "id": "github-release:293754771",
-    "title": "0.112.0-alpha.1",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.112.0-alpha.1",
+    "id": "github-release:305212415",
+    "title": "0.119.0-alpha.10",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.10",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-06T01:19:21.000Z",
-    "summary": "Release 0.112.0-alpha.1"
+    "publishedAt": "2026-04-04T03:10:33.000Z",
+    "summary": "Release 0.119.0-alpha.10"
   },
   {
-    "id": "github-release:293639875",
-    "title": "0.111.0",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.111.0",
+    "id": "github-release:305203200",
+    "title": "0.119.0-alpha.9",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.9",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-05T19:12:13.000Z",
-    "summary": "## New Features\n- Fast mode is now enabled by default, and the TUI header shows whether the session is running in Fast or Standard mode. (#13450, #13446)\n- `js_repl` can now dynamically import local `.js` and `.mjs` files, making it easier to reuse workspace scripts from the REPL. (#13437)\n- Codex now tells the model which plugins are enabled at session start, improving discovery of installed MCPs"
+    "publishedAt": "2026-04-04T02:10:25.000Z",
+    "summary": "Release 0.119.0-alpha.9"
   },
   {
-    "id": "github-release:293519124",
-    "title": "0.111.0-alpha.2",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.111.0-alpha.2",
+    "id": "github-release:304979132",
+    "title": "0.119.0-alpha.8",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.8",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-05T14:11:58.000Z",
-    "summary": "Release 0.111.0-alpha.2"
+    "publishedAt": "2026-04-03T08:11:23.000Z",
+    "summary": "Release 0.119.0-alpha.8"
   },
   {
-    "id": "github-release:293436198",
-    "title": "artifact-runtime-v2.4.0",
-    "url": "https://github.com/openai/codex/releases/tag/artifact-runtime-v2.4.0",
+    "id": "github-release:304963732",
+    "title": "0.119.0-alpha.7",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.7",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-05T10:52:18.000Z",
-    "summary": "Empty draft"
+    "publishedAt": "2026-04-03T06:52:11.000Z",
+    "summary": "Release 0.119.0-alpha.7"
   },
   {
-    "id": "github-release:293278607",
-    "title": "0.111.0-alpha.1",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.111.0-alpha.1",
+    "id": "github-release:304930818",
+    "title": "0.119.0-alpha.6",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.6",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-05T04:33:24.000Z",
-    "summary": "Release 0.111.0-alpha.1"
+    "publishedAt": "2026-04-03T03:19:00.000Z",
+    "summary": "Release 0.119.0-alpha.6"
   },
   {
-    "id": "github-release:293239637",
-    "title": "0.110.0",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.110.0",
+    "id": "github-release:304834690",
+    "title": "0.119.0-alpha.5",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.5",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-05T02:22:46.000Z",
-    "summary": "## New Features\n- Added a plugin system that can load skills, MCP entries, and app connectors from config or a local marketplace, with an install endpoint for enabling plugins from the app server. (#12864, #13333, #13401, #13422)\n- Expanded the TUI multi-agent flow with approval prompts, `/agent`-based enablement, clearer prompts, ordinal nicknames, and role-labeled handoff context. (#12995, #1324"
+    "publishedAt": "2026-04-02T20:01:01.000Z",
+    "summary": "Release 0.119.0-alpha.5"
   },
   {
-    "id": "github-release:293223514",
-    "title": "0.110.0-alpha.1",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.110.0-alpha.1",
+    "id": "github-release:304732071",
+    "title": "0.119.0-alpha.4",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.4",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-05T00:59:56.000Z",
-    "summary": "Release 0.110.0-alpha.1"
+    "publishedAt": "2026-04-02T15:33:25.000Z",
+    "summary": "Release 0.119.0-alpha.4"
   },
   {
-    "id": "github-release:293036630",
-    "title": "0.108.0-alpha.12",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.12",
+    "id": "github-release:304484111",
+    "title": "0.119.0-alpha.3",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.3",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T15:33:58.000Z",
-    "summary": "Release 0.108.0-alpha.12"
+    "publishedAt": "2026-04-02T02:43:11.000Z",
+    "summary": "Release 0.119.0-alpha.3"
   },
   {
-    "id": "github-release:292947570",
-    "title": "0.108.0-alpha.11",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.11",
+    "id": "github-release:304136947",
+    "title": "0.119.0-alpha.2",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.2",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T11:59:49.000Z",
-    "summary": "Release 0.108.0-alpha.11"
+    "publishedAt": "2026-04-01T11:07:53.000Z",
+    "summary": "Release 0.119.0-alpha.2"
   },
   {
-    "id": "github-release:292830657",
-    "title": "0.108.0-alpha.10",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.10",
+    "id": "github-release:303826765",
+    "title": "0.119.0-alpha.1",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.1",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T05:48:10.000Z",
-    "summary": "Release 0.108.0-alpha.10"
+    "publishedAt": "2026-03-31T17:53:34.000Z",
+    "summary": "Release 0.119.0-alpha.1"
   },
   {
-    "id": "github-release:292825322",
-    "title": "0.108.0-alpha.9",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.9",
+    "id": "github-release:303805427",
+    "title": "0.118.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.118.0",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T05:16:15.000Z",
-    "summary": "Release 0.108.0-alpha.9"
+    "publishedAt": "2026-03-31T17:02:18.000Z",
+    "summary": "## New Features\n- Windows sandbox runs can now enforce proxy-only networking with OS-level egress rules, instead of relying on environment variables alone. (#12220)\n- App-server clients can now start ChatGPT sign-in with a device code flow, which helps when browser callback login is unreliable or unavailable. (#15525)\n- `codex exec` now supports the prompt-plus-stdin workflow, so you can pipe inpu"
   },
   {
-    "id": "github-release:292796690",
-    "title": "0.108.0-alpha.8",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.8",
+    "id": "github-release:303744695",
+    "title": "0.118.0-alpha.5",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.118.0-alpha.5",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T02:39:14.000Z",
-    "summary": "Release 0.108.0-alpha.8"
+    "publishedAt": "2026-03-31T14:41:15.000Z",
+    "summary": "Release 0.118.0-alpha.5"
   },
   {
-    "id": "github-release:292786417",
-    "title": "0.108.0-alpha.7",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.7",
+    "id": "github-release:303602323",
+    "title": "0.118.0-alpha.4",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.118.0-alpha.4",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T01:35:00.000Z",
-    "summary": "Release 0.108.0-alpha.7"
+    "publishedAt": "2026-03-31T09:20:13.000Z",
+    "summary": "Release 0.118.0-alpha.4"
   },
   {
-    "id": "github-release:292777224",
-    "title": "0.108.0-alpha.6",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.6",
+    "id": "github-release:302588809",
+    "title": "0.118.0-alpha.3",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.118.0-alpha.3",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-04T00:46:06.000Z",
-    "summary": "Release 0.108.0-alpha.6"
+    "publishedAt": "2026-03-27T23:09:25.000Z",
+    "summary": "Release 0.118.0-alpha.3"
   },
   {
-    "id": "github-release:292758913",
-    "title": "0.108.0-alpha.5",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.5",
+    "id": "github-release:302575058",
+    "title": "0.118.0-alpha.2",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.118.0-alpha.2",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-03T23:12:42.000Z",
-    "summary": "Release 0.108.0-alpha.5"
+    "publishedAt": "2026-03-27T22:04:25.000Z",
+    "summary": "Release 0.118.0-alpha.2"
   },
   {
-    "id": "github-release:292492901",
-    "title": "0.108.0-alpha.3",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.3",
+    "id": "github-release:302123790",
+    "title": "0.117.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-03T11:12:30.000Z",
-    "summary": "Release 0.108.0-alpha.3"
+    "publishedAt": "2026-03-26T22:27:39.000Z",
+    "summary": "## New Features\n- Plugins are now a first-class workflow: Codex can sync product-scoped plugins at startup, browse them in `/plugins`, and install or remove them with clearer auth/setup handling. (#15041, #15042, #15195, #15215, #15217, #15264, #15275, #15342, #15580, #15606, #15802)\n- Sub-agents now use readable path-based addresses like `/root/agent_a`, with structured inter-agent messaging and"
   },
   {
-    "id": "github-release:292383503",
-    "title": "0.108.0-alpha.2",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.2",
+    "id": "github-release:302102234",
+    "title": "0.117.0-alpha.25",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.25",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-03T05:35:04.000Z",
-    "summary": "Release 0.108.0-alpha.2"
+    "publishedAt": "2026-03-26T21:14:19.000Z",
+    "summary": "Release 0.117.0-alpha.25"
   },
   {
-    "id": "github-release:292340351",
-    "title": "0.108.0-alpha.1",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.108.0-alpha.1",
+    "id": "github-release:302070560",
+    "title": "0.117.0-alpha.24",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.24",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-03T02:13:59.000Z",
-    "summary": "Release 0.108.0-alpha.1"
+    "publishedAt": "2026-03-26T19:51:59.000Z",
+    "summary": "Release 0.117.0-alpha.24"
   },
   {
-    "id": "github-release:292187522",
-    "title": "0.107.0",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0",
+    "id": "github-release:301989952",
+    "title": "0.117.0-alpha.23",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.23",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-02T18:00:16.000Z",
-    "summary": "## New Features\n- You can now fork a thread into sub-agents, making it easier to branch work without leaving the current conversation. (#12499)\n- Realtime voice sessions now let you pick microphone and speaker devices, persist those choices, and send audio in a format better aligned with transcription. (#12849, #12850, #13030)\n- Custom tools can now return multimodal output, including structured c"
+    "publishedAt": "2026-03-26T16:56:53.000Z",
+    "summary": "Release 0.117.0-alpha.23"
   },
   {
-    "id": "github-release:291871496",
-    "title": "0.107.0-alpha.9",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.9",
+    "id": "github-release:301697091",
+    "title": "0.117.0-alpha.22",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.22",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-03-02T00:45:28.000Z",
-    "summary": "Release 0.107.0-alpha.9"
+    "publishedAt": "2026-03-26T07:52:40.000Z",
+    "summary": "Release 0.117.0-alpha.22"
   },
   {
-    "id": "github-release:291574193",
-    "title": "0.107.0-alpha.8",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.8",
+    "id": "github-release:301642007",
+    "title": "0.117.0-alpha.21",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.21",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-28T02:50:51.000Z",
-    "summary": "Release 0.107.0-alpha.8"
+    "publishedAt": "2026-03-26T05:15:27.000Z",
+    "summary": "Release 0.117.0-alpha.21"
   },
   {
-    "id": "github-release:291568332",
-    "title": "0.107.0-alpha.7",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.7",
+    "id": "github-release:301605774",
+    "title": "0.117.0-alpha.20",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.20",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-28T01:53:50.000Z",
-    "summary": "Release 0.107.0-alpha.7"
+    "publishedAt": "2026-03-26T03:01:37.000Z",
+    "summary": "Release 0.117.0-alpha.20"
   },
   {
-    "id": "github-release:291360857",
-    "title": "0.107.0-alpha.5",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.5",
+    "id": "github-release:301455651",
+    "title": "0.117.0-alpha.19",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.19",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-27T13:39:19.000Z",
-    "summary": "Release 0.107.0-alpha.5"
+    "publishedAt": "2026-03-25T21:35:43.000Z",
+    "summary": "Release 0.117.0-alpha.19"
   },
   {
-    "id": "github-release:291251381",
-    "title": "0.107.0-alpha.4",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.4",
+    "id": "github-release:301417943",
+    "title": "0.117.0-alpha.18",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.18",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-27T07:39:08.000Z",
-    "summary": "Release 0.107.0-alpha.4"
+    "publishedAt": "2026-03-25T20:08:21.000Z",
+    "summary": "Release 0.117.0-alpha.18"
   },
   {
-    "id": "github-release:291178827",
-    "title": "0.107.0-alpha.3",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.3",
+    "id": "github-release:301050090",
+    "title": "0.117.0-alpha.17",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.17",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-27T02:17:52.000Z",
-    "summary": "Release 0.107.0-alpha.3"
+    "publishedAt": "2026-03-25T07:45:07.000Z",
+    "summary": "Release 0.117.0-alpha.17"
   },
   {
-    "id": "github-release:291162544",
-    "title": "0.107.0-alpha.2",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.2",
+    "id": "github-release:301011714",
+    "title": "0.117.0-alpha.16",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.16",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-27T00:34:43.000Z",
-    "summary": "Release 0.107.0-alpha.2"
+    "publishedAt": "2026-03-25T05:41:25.000Z",
+    "summary": "Release 0.117.0-alpha.16"
   },
   {
-    "id": "github-release:291153947",
-    "title": "0.107.0-alpha.1",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.107.0-alpha.1",
+    "id": "github-release:300978388",
+    "title": "0.117.0-alpha.15",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.15",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-26T23:47:57.000Z",
-    "summary": "Release 0.107.0-alpha.1"
+    "publishedAt": "2026-03-25T03:26:23.000Z",
+    "summary": "Release 0.117.0-alpha.15"
   },
   {
-    "id": "github-release:291146451",
-    "title": "0.106.0",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.106.0",
+    "id": "github-release:300908668",
+    "title": "0.117.0-alpha.14",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.14",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-26T23:11:50.000Z",
-    "summary": "## New Features\n- Added a direct install script for macOS and Linux and publish it as a GitHub release asset, using the existing platform payload (including `codex` and `rg`) (#12740)\n- Expanded the app-server v2 thread API with experimental thread-scoped realtime endpoints/notifications and a `thread/unsubscribe` flow to unload live threads without archiving them (#12715, #10954)\n- Promoted `js_r"
+    "publishedAt": "2026-03-24T22:07:25.000Z",
+    "summary": "Release 0.117.0-alpha.14"
   },
   {
-    "id": "github-release:290892584",
-    "title": "0.106.0-alpha.9",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.106.0-alpha.9",
+    "id": "github-release:300842415",
+    "title": "0.117.0-alpha.13",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.13",
     "source": "GitHub/openai/codex",
     "sourceType": "release",
     "lang": "en",
-    "publishedAt": "2026-02-26T13:01:29.000Z",
-    "summary": "Release 0.106.0-alpha.9"
+    "publishedAt": "2026-03-24T18:55:14.000Z",
+    "summary": "Release 0.117.0-alpha.13"
   }
 ]
