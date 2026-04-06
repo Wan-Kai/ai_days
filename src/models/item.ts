@@ -1,4 +1,4 @@
-export type SourceType = "article" | "release";
+export type SourceType = "article" | "release" | "tool_update";
 
 export interface Item {
   id: string;

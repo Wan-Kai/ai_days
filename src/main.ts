@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { collectBestBlogs } from "./collectors/bestblogs.js";
 import { collectGithubReleases } from "./collectors/github.js";
+import { collectCursorChangelog } from "./collectors/cursor.js";
 import { Item } from "./models/item.js";
 import { buildRss } from "./output/rss.js";
 
@@ -26,12 +27,13 @@ async function writeJson(path: string, data: unknown): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  const [bestblogsItems, githubItems] = await Promise.all([
+  const [bestblogsItems, githubItems, cursorItems] = await Promise.all([
     collectBestBlogs(),
     collectGithubReleases(),
+    collectCursorChangelog(),
   ]);
 
-  const merged = mergeAndDedupe([...bestblogsItems, ...githubItems]);
+  const merged = mergeAndDedupe([...bestblogsItems, ...githubItems, ...cursorItems]);
 
   await mkdir("data", { recursive: true });
   await mkdir("public/rss", { recursive: true });
@@ -39,6 +41,7 @@ async function main(): Promise<void> {
   await Promise.all([
     writeJson("data/bestblogs.json", bestblogsItems),
     writeJson("data/github-releases.json", githubItems),
+    writeJson("data/cursor-changelog.json", cursorItems),
     writeJson("data/daily-merged.json", merged),
   ]);
 
@@ -51,7 +54,7 @@ async function main(): Promise<void> {
   await writeFile("public/rss/daily.xml", dailyXml, "utf8");
 
   console.log(
-    `daily pipeline done: bestblogs=${bestblogsItems.length}, github=${githubItems.length}, merged=${merged.length}`,
+    `daily pipeline done: bestblogs=${bestblogsItems.length}, github=${githubItems.length}, cursor=${cursorItems.length}, merged=${merged.length}`,
   );
 }
 
